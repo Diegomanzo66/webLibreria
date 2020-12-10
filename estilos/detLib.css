@@ -1,0 +1,820 @@
+/*--------------Header-----------------------*/
+header{
+    /*   background-color:rgb(112, 110, 110); */
+    background-color:#800000	;
+     position: sticky;
+     top: 0px;
+  }
+  .cont-encabezado{
+    display: flex;
+  justify-content: space-between;
+
+ } 
+ .cont-encabezado ul{
+     list-style: none;
+ }
+ .cont-encabezado li{
+     float: left;
+ }
+ .LogTit{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+.Menu li{
+margin-right: 1rem;
+}
+.Menu li a{
+    padding: 0.8rem  0.8rem 0.8rem;
+    border-radius: 5px;
+}  
+
+.Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Menu a{
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.btnRad{
+    display: none;
+}
+.lbBtn{
+    display: none;
+} 
+.cell-elements{
+    position: absolute;
+    background-color: #800000;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: -200%;
+    transition: all ;
+}
+.cell-elements ul{
+flex-direction: column;
+margin: 0;
+padding: 0;
+
+}
+.IcoMenu
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.Menu label:hover{
+cursor: pointer;
+}
+.cell-elements ul{
+   display: flex; 
+}
+
+.cell-elements li:hover{
+ background-color: (0,0,0,0.3);
+    }
+.cell-elements li a{
+display: block;
+}
+
+.Barra-Head{
+    float: right;
+}
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0.5rem;
+    border-radius: 0.1rem;
+    
+}
+.Barra-Head a:hover{
+    background-color: rgba(190, 177, 177, 0.712);
+}
+.Sub-Menu{
+    background-color: rgb(255, 0, 0);
+    border-top: 0.3rem solid lightsalmon;
+    border-bottom: 0.3rem solid lightsalmon;
+    display: flex;
+    height: 2.5rem;
+} 
+.Sub-Menu ul{
+    list-style: none;
+    margin: 0 auto;
+ 
+}
+.Sub-Menu li{
+    float: left;
+    margin-right: 1.2rem;
+    margin-top: 0.6rem;
+    font-style: oblique;
+    font-size: 1.2rem;   
+}
+  .Sub-Menu li a{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}  
+
+ .Sub-Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Sub-Menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*Cierre Header*/
+
+/*Elementos del Header Footer*/
+span{
+    color: whitesmoke;
+    font-size: 5rem;
+ }
+ 
+ body{
+     background-color: 	#F8F8FF;
+ }
+ h1{
+     font-size: 2rem;
+     color: white;
+     font-family: 'Merienda One', cursive;
+     margin: 0 auto; 
+ }
+ .logo{
+    margin-left: 0.6rem;
+    width: 8rem;
+    height: 5.6rem;
+    border-radius: 2rem;
+}
+.icon-lupa{
+    
+    width: 1.9rem;
+    height: 1.9rem;;
+}
+.icon-car{
+ 
+    width: 2.5rem;
+    height: 2.5rem;  
+}
+.icon{
+    width: 1.6rem ;
+    height: 1.6rem;
+}
+input[type=search]{
+    width: 12.5rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+}
+input[type=submit]{
+width: 3.1rem;
+height: 2.1rem;
+}
+/*Cierre elementos header,Footer*/
+
+/*-----------------------Main------------------------------*/
+.ConDet-Libro{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+  row-gap: 2rem;
+ 
+  
+}
+.info{
+    margin: 1.9rem;
+    width: 65%;
+    height: 80%;
+    padding-left: 1.9rem;
+    background-image: url(../imagenes/FondoTXT.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.title{
+font-size: 1.6rem;
+color: rgb(240, 220, 220);
+font-style: oblique;
+}
+.sub-title{
+    font-size: 1.25rem;
+    color: wheat ;
+    font-style: oblique;
+}
+.spBot{
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+.Money{
+    font-size: 2.1rem;
+    
+    color: rgb(109, 218, 21);
+    font-style: oblique;
+}
+.star{
+    width: 1.9rem;
+    height: 2.1rem; 
+}
+
+.ImgDlib{
+     width: 17.5rem;
+    height: 25rem;   
+}
+
+article{
+    
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: justify;
+     grid-column: 1/4; 
+    margin-left: 2.5rem;
+    margin-right:2.5rem; 
+ 
+}
+.Sinop
+{
+    font-size: 2.5rem;
+    color: rgb(94, 88, 88);
+}
+
+ul li{
+    list-style: none;
+    margin: 0px;
+}
+.ls{
+    float: left;
+}
+.lis-DetLib{
+    padding: 3.1rem;
+    margin: 0 auto;
+}
+.lis-DetLib li{
+    padding-top: 0.6rem ;
+margin-bottom: 0.6rem;
+}
+u{
+    color: rgb(207, 198, 198);
+}
+.Detail-Lib{
+    margin-top: 1.9rem;
+    width: 66%;
+    height: 50%;
+    background-image: url(../imagenes/marcGris.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.botCar{
+    width: 7.5rem;
+    height: 2.5rem;
+    background-color:  rgb(11, 86, 224);
+    border-radius: 0.3rem;
+}
+.botCar:hover{
+    background-color: #1E90FF;
+    
+}
+.imgPQ{
+    width: 6.9rem;
+    height: 6.9rem;
+}
+.liPaq{
+    float: left;
+}
+.txPaq{
+    font-size: 0.9rem;
+   line-height: 1.2rem;
+    color: rgb(77, 21, 21) ;
+}
+ .litxPaq{
+     margin-top: 1.9rem;
+    
+} 
+/*--------------------Cierre Main---------------------------*/
+
+
+
+
+/*------------Elementos Libros-----------------------------*/
+.Seccionar{
+    
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    
+    margin: 0 auto;
+  background-image: url(../imagenes/Cintilla.png);
+  background-position: center;
+  background-size: cover;
+
+}
+span{
+    color: whitesmoke;
+    font-size: 3.1rem;
+ }
+img{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 0.3rem;
+    
+    }
+    
+    .Contenedor-Libros{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        
+         margin-left: 6.25rem;
+        margin-top: 1.9rem;
+        margin-bottom: 1.9rem; 
+        
+    }
+    
+    .Libro{
+        background-color: lightgrey;
+        width: 13.8rem;
+        height: 15.6rem;
+        padding-top: 0.6rem;
+        border: 2px solid gray;
+        text-align: center;
+        margin-bottom: 1.25rem;
+        border-radius: 0.3rem;
+    }
+    .Libro:hover{
+        transform: translateY(-0.9rem);
+        box-shadow: 0rem 0.75rem 1rem rgb(0,0,0.2);
+        background-color: skyblue;
+    }
+    .Libro p{
+        font-size: 1.25rem;
+        font-style: oblique;
+    }
+/*------------Cierre Elementos Libros---------------------*/
+/* ------------Footer---------------- */
+/*Footer*/
+footer{
+    background-color: #800000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16rem;
+}
+
+ .logo-redes{
+ display: flex;
+ flex-direction: column;
+}
+.cont-lateral{
+   display: grid;
+   grid-template-columns: repeat(3,fr);
+  column-gap: 3.1rem;
+}
+.cont-lateral ul{
+    list-style: none;
+}
+.cont-lateral li{
+    float: left;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.3rem;
+}
+.enlaces a:hover{
+    background-color: 	#FF4500;
+}
+.Libro-footer{
+    width: auto;
+    padding-top: 2.4rem;
+    height: 6.25rem;
+}
+.RS{
+    font-size: 1.1rem;
+    color: white;
+}
+/*-------------------Dispositivos Pequeños*/
+@media(min-width:260px) and (max-width:767px)
+{
+
+ .Menu{
+   float: left;
+} 
+ .latD-Head{
+   display: block;
+    justify-self: center;
+} 
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0.5rem;
+}
+.Barra-Head input[type=search]{
+    width: 15rem;
+}
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+    font-size: 0.8rem;
+}
+.Menu-cell{
+    padding-top: 30px;
+}
+.Menu-cell label{
+    display: block;
+}
+
+.cell-elements li{
+    border-top: 2px solid white;
+}
+#btnMenu:checked ~ .cell-elements
+{
+    margin: 0;
+}
+
+input[type="search"]
+{
+    width: 9rem;
+    height: 1.5rem;
+}
+
+.Sub-Menu {
+   display: none;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.icon-lupa{
+    
+    width: 1.6rem;
+    height: 1.6rem;;
+}
+.icon-car{
+ 
+    width: 2rem;
+    height: 2rem;  
+}
+.cont-encabezado{
+    display: grid;
+    grid-template-rows: 30% 50%;
+    grid-template-columns: 100%;
+    justify-items: center;
+  
+}
+.cont-encabezado ul{
+    justify-items: end;
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    
+}
+
+span{
+    font-size: 1.5rem;
+}
+.h1{
+    font-size: 1rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+}
+.Contenedor-Libros{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 3rem;
+    justify-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.ConDet-Libro{
+
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
+   /*  row-gap: 2rem;  */
+  }
+  .ConDet-Libro .ImgDlib{
+      justify-items: end;
+  }
+  .info{
+      padding: 0;
+      margin: 0;
+      width: 50%;
+      height: 50%; 
+  }
+  .lis-DetLib{
+    padding: 2.0rem;
+    margin: 0 auto;
+}
+.lis-DetLib li{
+    padding-top: 0rem ;
+margin-bottom: 0.6rem;
+}
+.Detail-Lib{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.Detail-Lib ul{
+    padding: 0;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    
+}
+  .title{
+  font-size: 0.8rem;
+  color: rgb(240, 220, 220);
+  font-style: oblique;
+  }
+  /* .Detail-Lib{
+      padding-top: 2rem;
+  } */
+  .sub-title{
+      font-size: 0.8rem;
+      color: wheat ;
+      font-style: oblique;
+  }
+  .spBot{
+      color: whitesmoke;
+      font-size: 0.8rem;
+  }
+  .preci{
+      font-size: 1.7rem;
+  }
+  h4{
+      padding-top: 1.4rem;
+  }
+  .Money{
+      font-size: 1.7rem;
+      
+      color: rgb(109, 218, 21);
+      font-style: oblique;
+  }
+  .star{
+      width: 1.2rem;
+      height: 1.3rem; 
+  }
+  
+  .ImgDlib{
+      
+       width: 10rem;
+      height: 12rem;   
+  }
+  
+
+footer
+{
+    grid-template-columns: 35% 65%;
+    column-gap: 0rem;
+}
+.Libro-footer{
+    width: 12rem;
+    display: none;
+}
+.cont-lateral{
+    justify-items: end;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+   
+}
+}
+
+
+
+/*Dispositivos Medianos*/
+@media(min-width:768px)  and (max-width:1023px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+display: grid;
+grid-template-columns: 55% 45%;
+ justify-items: center;
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;  
+}
+
+ 
+span{
+    font-size: 3rem;
+}
+.h1{
+    font-size: 1.4rem;
+    padding-top: 1.3rem;
+    padding-left: 1.5rem;
+}
+.Contenedor-Libros{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem;
+    justify-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.ConDet-Libro{
+
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+      justify-items: center;
+    row-gap: 2rem; 
+  }
+  .ConDet-Libro .ImgDlib{
+      justify-items: end;
+  }
+  .info{
+      padding: 0;
+      margin: 0;
+      width: 60%;
+      height: 60%; 
+  }
+  .lis-DetLib{
+    padding: 2.0rem;
+    margin: 0 auto;
+}
+.lis-DetLib li{
+    padding-top: 0.6rem ;
+margin-bottom: 0.6rem;
+}
+  .title{
+  font-size: 1.0rem;
+  color: rgb(240, 220, 220);
+  font-style: oblique;
+  }
+  .Detail-Lib{
+      padding-top: 2rem;
+  }
+  .sub-title{
+      font-size: 0.8rem;
+      color: wheat ;
+      font-style: oblique;
+  }
+  .spBot{
+      color: whitesmoke;
+      font-size: 0.8rem;
+  }
+  
+  .Money{
+      font-size: 1.3rem;
+      
+      color: rgb(109, 218, 21);
+      font-style: oblique;
+  }
+  .star{
+      width: 1.3rem;
+      height: 1.5rem; 
+  }
+  
+  .ImgDlib{
+      margin-left: 1rem;
+       width: 14rem;
+      height: 18rem;   
+  }
+  
+
+footer
+{
+    grid-template-columns: 15% 30% 55%;
+    column-gap: 4.5rem;
+}
+.Libro-footer{
+    width: 17rem;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+}
+}
+/*-------------------------Dispositivos Mayores*/
+@media(min-width:1024px) and (max-width:1200px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 7rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 60% 40%;
+     justify-items: center; 
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.h1{
+    padding-left: 1.2rem;
+}
+span{
+    font-size: 3rem;
+}
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 1.2rem;
+
+}
+
+.ConDet-Libro{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+      justify-items: center;
+    row-gap: 2rem; 
+  }
+  .info{
+      margin: 1.9rem;
+      width: 75%;
+      height: 75%; 
+  }
+  .title{
+  font-size: 1.2rem;
+  color: rgb(240, 220, 220);
+  font-style: oblique;
+  }
+  .Detail-Lib{
+      padding-top: 1rem;
+  }
+  .sub-title{
+      font-size: 1rem;
+      color: wheat ;
+      font-style: oblique;
+  }
+  .spBot{
+      color: whitesmoke;
+      font-size: 0.8rem;
+  }
+  
+  .Money{
+      font-size: 1.6rem;
+      
+      color: rgb(109, 218, 21);
+      font-style: oblique;
+  }
+  .star{
+      width: 1.6rem;
+      height: 1.8rem; 
+  }
+  
+  .ImgDlib{
+       width: 14rem;
+      height: 24rem;   
+  }
+  
+
+.Contenedor-Libros{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem;
+    justify-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+footer
+{
+    grid-template-columns: 15% 40% 45%;
+    column-gap: 5rem;
+}
+
+}

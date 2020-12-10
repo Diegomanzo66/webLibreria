@@ -1,0 +1,436 @@
+header{
+    /*   background-color:rgb(112, 110, 110); */
+    background-color:#800000	;
+     position: sticky;
+     top: 0px;
+  }
+  .cont-encabezado{
+    display: flex;
+  justify-content: space-between;
+
+ } 
+ .cont-encabezado ul{
+     list-style: none;
+ }
+ .cont-encabezado li{
+     float: left;
+ }
+ .LogTit{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+.Menu li{
+margin-right: 1rem;
+}
+.Menu li a{
+    padding: 0.8rem  0.8rem 0.8rem;
+    border-radius: 5px;
+}  
+
+.Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Menu a{
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.btnRad{
+    display: none;
+}
+.lbBtn{
+    display: none;
+} 
+.cell-elements{
+    position: absolute;
+    background-color: #800000;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: -200%;
+    transition: all ;
+}
+.cell-elements ul{
+flex-direction: column;
+margin: 0;
+padding: 0;
+
+}
+.IcoMenu
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.Menu label:hover{
+cursor: pointer;
+}
+.cell-elements ul{
+   display: flex; 
+}
+
+.cell-elements li:hover{
+ background-color: (0,0,0,0.3);
+    }
+.cell-elements li a{
+display: block;
+}
+
+.Barra-Head{
+    float: right;
+}
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0.5rem;
+    border-radius: 0.1rem;
+    
+}
+.Barra-Head a:hover{
+    background-color: rgba(190, 177, 177, 0.712);
+}
+.Sub-Menu{
+    background-color: rgb(255, 0, 0);
+    border-top: 0.3rem solid lightsalmon;
+    border-bottom: 0.3rem solid lightsalmon;
+    display: flex;
+    height: 2.5rem;
+} 
+.Sub-Menu ul{
+    list-style: none;
+    margin: 0 auto;
+ 
+}
+.Sub-Menu li{
+    float: left;
+    margin-right: 1.2rem;
+    margin-top: 0.6rem;
+    font-style: oblique;
+    font-size: 1.2rem;   
+}
+  .Sub-Menu li a{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}  
+
+ .Sub-Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Sub-Menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*Cierre Header*/
+
+/*Elementos del Header Footer*/
+span{
+    color: whitesmoke;
+    font-size: 5rem;
+ }
+ 
+ body{
+     background-color: 	#F8F8FF;
+ }
+ h1{
+     font-size: 2rem;
+     color: white;
+     font-family: 'Merienda One', cursive;
+     margin: 0 auto; 
+ }
+ .logo{
+    margin-left: 0.6rem;
+    width: 8rem;
+    height: 5.6rem;
+    border-radius: 2rem;
+}
+.icon-lupa{
+    
+    width: 1.9rem;
+    height: 1.9rem;;
+}
+.icon-car{
+ 
+    width: 2.5rem;
+    height: 2.5rem;  
+}
+.icon{
+    width: 1.6rem ;
+    height: 1.6rem;
+}
+input[type=search]{
+    width: 12.5rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+}
+input[type=submit]{
+width: 3.1rem;
+height: 2.1rem;
+}
+/*Cierre elementos header,Footer*/
+
+/*Footer*/
+footer{
+    background-color: #800000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16rem;
+}
+
+ .logo-redes{
+ display: flex;
+ flex-direction: column;
+}
+.cont-lateral{
+   display: grid;
+   grid-template-columns: repeat(3,fr);
+  column-gap: 3.1rem;
+}
+.cont-lateral ul{
+    list-style: none;
+}
+.cont-lateral li{
+    float: left;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.3rem;
+}
+.enlaces a:hover{
+    background-color: 	#FF4500;
+}
+.Libro-footer{
+    width: auto;
+    padding-top: 2.4rem;
+    height: 6.25rem;
+}
+.RS{
+    font-size: 1.1rem;
+    color: white;
+}
+/*-------------------Dispositivos Pequeños*/
+@media(min-width:360px) and (max-width:767px)
+{
+
+ .Menu{
+   float: left;
+} 
+ .latD-Head{
+   display: block;
+    justify-self: center;
+} 
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0.5rem;
+}
+.Barra-Head input[type=search]{
+    width: 15rem;
+}
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+    font-size: 0.8rem;
+}
+.Menu-cell{
+    padding-top: 30px;
+}
+.Menu-cell label{
+    display: block;
+}
+
+.cell-elements li{
+    border-top: 2px solid white;
+}
+#btnMenu:checked ~ .cell-elements
+{
+    margin: 0;
+}
+
+input[type="search"]
+{
+    width: 9rem;
+    height: 1.5rem;
+}
+
+.Sub-Menu {
+   display: none;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.icon-lupa{
+    
+    width: 1.6rem;
+    height: 1.6rem;;
+}
+.icon-car{
+ 
+    width: 2rem;
+    height: 2rem;  
+}
+.cont-encabezado{
+    display: grid;
+    grid-template-rows: 30% 50%;
+    grid-template-columns: 100%;
+    justify-items: center;
+  
+}
+.cont-encabezado ul{
+    justify-items: end;
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    
+}
+
+
+ 
+span{
+    font-size: 1.5rem;
+}
+.h1{
+    font-size: 1rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+}
+
+footer
+{
+    grid-template-columns: 35% 65%;
+    column-gap: 0rem;
+}
+.Libro-footer{
+    width: 12rem;
+    display: none;
+}
+.cont-lateral{
+    justify-items: end;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+   
+}
+}
+
+
+
+/*Dispositivos Medianos*/
+@media(min-width:768px)  and (max-width:1023px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 55% 45%;
+ justify-items: center;
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;  
+}
+
+ 
+span{
+    font-size: 3rem;
+}
+.h1{
+    font-size: 1.4rem;
+    padding-top: 1.3rem;
+    padding-left: 1.5rem;
+}
+
+footer
+{
+    grid-template-columns: 15% 30% 55%;
+    column-gap: 4.5rem;
+}
+.Libro-footer{
+    width: 17rem;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+}
+}
+/*-------------------------Dispositivos Mayores*/
+@media(min-width:1024px) and (max-width:1200px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 7rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 60% 40%;
+     justify-items: center; 
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.h1{
+    padding-left: 1.2rem;
+}
+span{
+    font-size: 3rem;
+}
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 1.2rem;
+
+}
+
+footer
+{
+    grid-template-columns: 15% 40% 45%;
+    column-gap: 5rem;
+}
+
+}

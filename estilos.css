@@ -1,0 +1,782 @@
+
+
+.cuerpo
+{
+    background-image: url(Libros/Lib.jpg);
+    margin: 0 0 0 0;
+}
+h1{
+    font-size: 20rem;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    margin: 0 auto;
+   
+}
+.titulo
+{
+   font-size: 4rem;
+   text-align: center; 
+   background-color: black;
+   color: white;
+   opacity: 0.9;
+   width: 500px;
+  
+   margin: 2.5rem auto;
+}
+
+.cuerpo h2
+{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cuerpo h3
+{
+    color: black;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.contenedor
+{
+    text-align: center;
+   
+}
+
+
+.contenedor img
+{
+    width: 200px;
+    height: 300px;
+    
+}
+.contenedor input
+{
+    
+    width: 150px;
+    height: 40px;
+    background-color: rgb(241, 136, 16);
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+/* Articulos de los libros */
+    .contenedor article
+    {
+        padding: 20px;
+        background-color: rgb(16, 116, 7);
+        border-radius: 15px;
+        opacity: 0.9;
+        height: 500px;
+        width: 200px;
+    }
+@media(min-width:0px)
+{
+    .cuatro-columnas
+    {
+        
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        margin: 1rem 2rem 1rem 6rem;
+        row-gap: 2rem;
+    }
+
+    /* Banner */
+
+    .contenedor-banner
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+    .banner
+    {
+        width: 50px;
+        height: 100px;
+        border: 5px solid red;
+        margin: auto;
+        background-image: url(Libros/A\ vueltas\ con\ la\ felicidad\ -\ Zenda.jpg);
+        background-size: 100% 100%;
+        animation: banner  25s infinite;
+        margin-bottom: 2rem;
+        
+    }
+
+    /* Etiquetas secciones */
+
+    .cuerpo h2
+    {
+        font-size: 2rem;
+        text-align: center; 
+        background-color: black;
+        font-family: 'Merienda One', cursive;
+        color: white;
+        opacity: 0.9;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+}
+@media(min-width:480px)
+{
+    .cuatro-columnas
+    {
+        
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        margin: 1rem 0 1rem 6rem;
+        
+    }
+
+    /* Banner */
+
+    .contenedor-banner
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .banner
+    {
+        width: 70px;
+        height: 120px;
+        border: 8px solid red;
+        margin: auto;
+        background-image: url(Libros/A\ vueltas\ con\ la\ felicidad\ -\ Zenda.jpg);
+        background-size: 100% 100%;
+        animation: banner  25s infinite;
+        margin-bottom: 2rem;
+    }
+
+    /* Etiquetas secciones */
+
+    .cuerpo h2
+    {
+        font-size: 2rem;
+        text-align: center; 
+        background-color: black;
+        font-family: 'Merienda One', cursive;
+        color: white;
+        opacity: 0.9;
+        width: 400px;
+        margin: 0 auto;
+    }
+    
+}
+@media(min-width:768px)
+{
+    .cuatro-columnas
+    {
+        
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+       margin: 1rem 0 1rem 6rem;
+       
+    }
+
+   /*  Banner */
+
+   .contenedor-banner
+   {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+   }
+   .banner
+   {
+       width: 150px;
+       height: 200px;
+       border: 10px solid red;
+       margin: auto;
+       background-image: url(Libros/A\ vueltas\ con\ la\ felicidad\ -\ Zenda.jpg);
+       background-size: 100% 100%;
+       animation: banner  25s infinite;
+    }
+
+    /* Etiquetas secciones */
+
+    .cuerpo h2
+    {
+        font-size: 2rem;
+        text-align: center; 
+        background-color: black;
+        font-family: 'Merienda One', cursive;
+        color: white;
+        opacity: 0.9;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    
+    
+}
+
+@media(min-width:1000px)
+{
+    .cuatro-columnas
+    {
+        
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+        margin-left: 40px;
+        
+    }
+
+    /* Etiquetas secciones */
+
+    .cuerpo h2
+    {
+        font-size: 2rem;
+        text-align: center; 
+        background-color: black;
+        font-family: 'Merienda One', cursive;
+        color: white;
+        opacity: 0.9;
+        width: 500px;
+        margin: 0rem auto;
+    }
+    
+    
+}
+
+@media(min-width:1030px)
+{
+    .cuatro-columnas
+    {
+        
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+        margin-left: 40px;
+        row-gap: 2rem;
+    }
+
+    /* Etiquetas secciones */
+
+    .cuerpo h2
+    {
+        font-size: 2rem;
+        text-align: center; 
+        background-color: black;
+        font-family: 'Merienda One', cursive;
+        color: white;
+        opacity: 0.9;
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    
+}
+
+
+
+@keyframes banner
+{
+    
+   0%,10%
+   {
+    background-image: url(Libros/el\ coro\ de\ los\ maestros\ carniceros\ -\ Búsqueda\ de…\ \(1\).jpg);
+    opacity: 1;
+   }
+   11%,20%
+   {
+    background-image: url(Libros/EL\ ESPEJO\ DE\ NUESTRAS\ PENAS\ \(LOS\ HIJOS\ DEL\ DESASTRE\ 3\)\ _\ PIERRE\ LEMAITRE\ _\ Comprar\ libro\ 9788418107337.png);
+    opacity: 1;
+   }
+   21%,30%
+   {
+    background-image: url(Libros/el\ mentiroso\ mikel\ santiago\ -\ Búsqueda\ de\ Google.jpg);
+    opacity: 1;
+   }
+   31%,40%
+   {
+    background-image: url(Libros/La\ chica\ de\ nieve\ -\ Javier\ Castillo\ -5%\ en\ libros.png);
+    opacity: 1;
+   }
+   41%,50%
+   {
+    background-image: url(Libros/La\ Mansión.jpg);
+    opacity: 1;
+   }
+   51%,60%
+   {
+    background-image: url(Libros/LAS\ TINIEBLAS\ Y\ EL\ ALBA\ _\ KEN\ FOLLETT\ _\ Comprar\ libro\ 9788401022876.png);
+    opacity: 1;
+   }
+   61%,70%
+   {
+    background-image: url(Libros/Mil\ besos\ prohibidos\ Sónsoles\ ónega\ -\ Búsqueda\ de….png);
+        opacity: 1;
+   }
+   71%,80%
+   {
+    background-image: url(Libros/Site\ Search\ &\ Discovery\ powered\ by\ AI\ \(2\).jpg);
+        opacity: 1;
+   }
+   81%,90%
+   {
+    background-image: url(Libros/Plenilunio\ -\ Antonio\ Muñoz\ Molina\ _\ Planeta\ de\ Libros.png);
+    opacity: 1;
+   }
+   91%,100%
+   {
+    background-image: url(Libros/Un\ simple\ golpe\ de\ címbalos\ -\ Zenda.jpg);
+    opacity: 1;
+   }
+}
+
+
+
+
+
+
+/* Estilos Header y footer */
+
+
+  
+ 
+ 
+ 
+/* -----------Inicio Footer-------------------- */
+header{
+    /*   background-color:rgb(112, 110, 110); */
+    background-color:#800000	;
+    
+     top: 0px;
+  }
+  .cont-encabezado{
+    display: flex;
+  justify-content: space-between;
+
+ } 
+ .cont-encabezado ul{
+     list-style: none;
+ }
+ .cont-encabezado li{
+     float: left;
+ }
+ .LogTit{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+.Menu li{
+margin-right: 1rem;
+}
+.Menu li a{
+    padding: 0.8rem  0.8rem 0.8rem;
+    border-radius: 5px;
+}  
+
+.Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Menu a{
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.btnRad{
+    display: none;
+}
+.lbBtn{
+    display: none;
+} 
+.cell-elements{
+    position: absolute;
+    background-color: #800000;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: -200%;
+    transition: all ;
+}
+.cell-elements ul{
+flex-direction: column;
+margin: 0;
+padding: 0;
+
+}
+.IcoMenu
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.Menu label:hover{
+cursor: pointer;
+}
+.cell-elements ul{
+   display: flex; 
+}
+
+.cell-elements li:hover{
+ background-color: (0,0,0,0.3);
+    }
+.cell-elements li a{
+display: block;
+}
+
+.Barra-Head{
+    float: right;
+}
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    border-radius: 0.1rem;
+    
+}
+.Barra-Head a:hover{
+    background-color: rgba(190, 177, 177, 0.712);
+}
+.Sub-Menu{
+    background-color: rgb(255, 0, 0);
+    border-top: 0.3rem solid lightsalmon;
+    border-bottom: 0.3rem solid lightsalmon;
+    display: flex;
+    height: 2.5rem;
+} 
+.Sub-Menu ul{
+    list-style: none;
+    margin: 0 auto;
+ 
+}
+.Sub-Menu li{
+    float: left;
+    margin-right: 1.2rem;
+    margin-top: 0.6rem;
+    font-style: oblique;
+    font-size: 1.2rem;   
+}
+  .Sub-Menu li a{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}  
+
+ .Sub-Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Sub-Menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*Cierre Header*/
+
+/*Elementos del Header Footer*/
+span{
+    color: whitesmoke;
+    font-size: 5rem;
+ }
+ 
+ body{
+     background-color: 	#F8F8FF;
+ }
+
+ .logo{
+    margin-left: 0.6rem;
+    width: 8rem;
+    height: 5.6rem;
+    border-radius: 2rem;
+}
+.icon-lupa{
+    
+    width: 1.9rem;
+    height: 1.9rem;;
+}
+.icon-car{
+ 
+    width: 2.5rem;
+    height: 2.5rem;  
+}
+.icon{
+    width: 1.6rem ;
+    height: 1.6rem;
+}
+input[type=search]{
+    width: 12.5rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+}
+input[type=submit]{
+width: 3.1rem;
+height: 2.1rem;
+}
+/*Cierre elementos header,Footer*/
+
+/*Footer*/
+footer{
+    background-color: #800000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16rem;
+}
+
+ .logo-redes{
+ display: flex;
+ flex-direction: column;
+}
+.cont-lateral{
+   display: grid;
+   grid-template-columns: repeat(3,fr);
+  column-gap: 3.1rem;
+}
+.cont-lateral ul{
+    list-style: none;
+}
+.cont-lateral li{
+    float: left;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.3rem;
+}
+.enlaces a:hover{
+    background-color: 	#FF4500;
+}
+.Libro-footer{
+    width: auto;
+    padding-top: 2.4rem;
+    height: 6.25rem;
+}
+.RS{
+    font-size: 1.1rem;
+    color: white;
+}
+/*-------------------Dispositivos Pequeños*/
+@media(min-width:360px) and (max-width:767px)
+{
+
+ .Menu{
+   float: left;
+} 
+ .latD-Head{
+   display: block;
+    justify-self: center;
+} 
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+.Barra-Head input[type=search]{
+    width: 15rem;
+}
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+    font-size: 0.8rem;
+}
+.Menu-cell{
+    padding-top: 30px;
+}
+.Menu-cell label{
+    display: block;
+}
+
+.cell-elements li{
+    border-top: 2px solid white;
+}
+#btnMenu:checked ~ .cell-elements
+{
+    margin: 0;
+}
+
+input[type="search"]
+{
+    width: 9rem;
+    height: 1.5rem;
+}
+
+.Sub-Menu {
+   display: none;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.icon-lupa{
+    
+    width: 1.6rem;
+    height: 1.6rem;;
+}
+.icon-car{
+ 
+    width: 2rem;
+    height: 2rem;  
+}
+.cont-encabezado{
+    display: grid;
+    grid-template-rows: 30% 50%;
+    grid-template-columns: 100%;
+    justify-items: center;
+  
+}
+.cont-encabezado ul{
+    justify-items: end;
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    
+}
+
+
+ 
+span{
+    font-size: 1.5rem;
+}
+.h1{
+    margin: 0 auto;
+    font-family: 'Merienda One', cursive;
+    font-size: 1rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+}
+
+footer
+{
+    grid-template-columns: 35% 65%;
+    column-gap: 0rem;
+}
+.Libro-footer{
+    width: 12rem;
+    display: none;
+}
+.cont-lateral{
+    justify-items: end;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+   
+}
+}
+
+
+
+/*Dispositivos Medianos*/
+@media(min-width:768px)  and (max-width:1023px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+.h1{
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 55% 45%;
+ justify-items: center;
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;  
+}
+
+ 
+span{
+    font-size: 3rem;
+}
+
+
+footer
+{
+    grid-template-columns: 15% 30% 55%;
+    column-gap: 4.5rem;
+}
+.Libro-footer{
+    width: 17rem;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+}
+}
+/*-------------------------Dispositivos Mayores*/
+@media(min-width:1024px) and (max-width:1200px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 7rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 60% 40%;
+     justify-items: center; 
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.h1{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-family: 'Merienda One', cursive;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+span{
+    font-size: 3rem;
+}
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 1.2rem;
+
+}
+
+footer
+{
+    grid-template-columns: 15% 40% 45%;
+    column-gap: 5rem;
+}
+
+}

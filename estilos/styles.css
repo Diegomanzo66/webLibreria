@@ -1,0 +1,830 @@
+header{
+    /*   background-color:rgb(112, 110, 110); */
+    background-color:#800000	;
+     position: sticky;
+     top: 0px;
+  }
+  .cont-encabezado{
+    display: flex;
+  justify-content: space-between;
+
+ } 
+ .cont-encabezado ul{
+     list-style: none;
+ }
+ .cont-encabezado li{
+     float: left;
+ }
+ .LogTit{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+.Menu li{
+margin-right: 1rem;
+}
+.Menu li a{
+    padding: 0.8rem  0.8rem 0.8rem;
+    border-radius: 5px;
+}  
+
+.Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Menu a{
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.btnRad{
+    display: none;
+}
+.lbBtn{
+    display: none;
+} 
+.cell-elements{
+    position: absolute;
+    background-color: #800000;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: -200%;
+    transition: all ;
+}
+.cell-elements ul{
+flex-direction: column;
+margin: 0;
+padding: 0;
+
+}
+.IcoMenu
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.Menu label:hover{
+cursor: pointer;
+}
+.cell-elements ul{
+   display: flex; 
+}
+
+.cell-elements li:hover{
+ background-color: (0,0,0,0.3);
+    }
+.cell-elements li a{
+display: block;
+}
+
+.Barra-Head{
+    float: right;
+}
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    border-radius: 0.1rem;
+    
+}
+.Barra-Head a:hover{
+    background-color: rgba(190, 177, 177, 0.712);
+}
+.Sub-Menu{
+    background-color: rgb(255, 0, 0);
+    border-top: 0.3rem solid lightsalmon;
+    border-bottom: 0.3rem solid lightsalmon;
+    display: flex;
+    height: 2.5rem;
+} 
+.Sub-Menu ul{
+    list-style: none;
+    margin: 0 auto;
+ 
+}
+.Sub-Menu li{
+    float: left;
+    margin-right: 1.2rem;
+    margin-top: 0.6rem;
+    font-style: oblique;
+    font-size: 1.2rem;   
+}
+  .Sub-Menu li a{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}  
+
+ .Sub-Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Sub-Menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ /*Cierre Header*/
+
+/*Elementos del Header Footer*/
+span{
+    color: whitesmoke;
+    font-size: 5rem;
+ }
+ 
+ body{
+     background-color: 	#F8F8FF;
+ }
+ h1{
+     font-size: 2rem;
+     color: white;
+     font-family: 'Merienda One', cursive;
+     margin: 0 auto; 
+ }
+ .logo{
+    margin-left: 0.6rem;
+    width: 8rem;
+    height: 5.6rem;
+    border-radius: 2rem;
+}
+.icon-lupa{
+    
+    width: 1.9rem;
+    height: 1.9rem;;
+}
+.icon-car{
+ 
+    width: 2.5rem;
+    height: 2.5rem;  
+}
+.icon{
+    width: 1.6rem ;
+    height: 1.6rem;
+}
+input[type=search]{
+    width: 12.5rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+}
+input[type=submit]{
+width: 3.1rem;
+height: 2.1rem;
+}
+/*Cierre elementos header,Footer*/
+
+/*Footer*/
+footer{
+    background-color: #800000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16rem;
+}
+
+ .logo-redes{
+ display: flex;
+ flex-direction: column;
+}
+.cont-lateral{
+   display: grid;
+   grid-template-columns: repeat(3,fr);
+  column-gap: 3.1rem;
+}
+.cont-lateral ul{
+    list-style: none;
+}
+.cont-lateral li{
+    float: left;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.3rem;
+}
+.enlaces a:hover{
+    background-color: 	#FF4500;
+}
+.Libro-footer{
+    width: auto;
+    padding-top: 2.4rem;
+    height: 6.25rem;
+}
+.RS{
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* -------------------Login Estilo----------------- */
+
+
+.sig {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 300px;
+    padding: 100px;
+    text-align: center;
+}
+
+.form-title {
+    color:  #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2rem auto;
+    padding: 1.4rem 1rem;
+    text-align: center;
+    border: 0.2rem solid #800000;
+    width: 200px;
+    outline: none;
+    color: #000000;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: coral;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: coral;
+    cursor: pointer;
+    border: 0.2rem solid #800000;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+
+.asi {
+    display: flex;
+    margin-left: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ----------------------Parte Responsiva del Login-----------------------  */
+
+@media(min-width: 260px) and (max-width:767px){
+    .Menu{
+        float: left;
+     } 
+      .latD-Head{
+        display: block;
+         justify-self: center;
+     } 
+     .Barra-Head a{
+         color: white;
+         text-decoration: none;
+         padding-right: 1.5rem;
+     }
+     .Barra-Head input[type=search]{
+         width: 15rem;
+     }
+     .Menu li{
+         margin-right: 0rem;
+     }
+     .Menu  li a{
+         padding: 0.3rem 0.3rem 0.3rem;
+         font-size: 0.8rem;
+     }
+     .Menu-cell{
+         padding-top: 30px;
+     }
+     .Menu-cell label{
+         display: block;
+     }
+     
+     .cell-elements li{
+         border-top: 2px solid white;
+     }
+     #btnMenu:checked ~ .cell-elements
+     {
+         margin: 0;
+     }
+     
+     input[type="search"]
+     {
+         width: 9rem;
+         height: 1.5rem;
+     }
+     
+     .Sub-Menu {
+        display: none;
+     }
+     
+     .logo{
+         width: 3rem;
+         height: 3rem;
+     }
+     .icon-lupa{
+         
+         width: 1.6rem;
+         height: 1.6rem;;
+     }
+     .icon-car{
+      
+         width: 2rem;
+         height: 2rem;  
+     }
+     .cont-encabezado{
+         display: grid;
+         grid-template-rows: 30% 50%;
+         grid-template-columns: 100%;
+         justify-items: center;
+       
+     }
+     .cont-encabezado ul{
+         justify-items: end;
+     }
+     
+     .LogTit{
+         display: grid;
+         grid-template-columns: 20% 80%;
+         justify-content: center;
+         
+     }
+     span{
+         font-size: 1.5rem;
+     }
+     .h1{
+         font-size: 1rem;
+         padding-top: 0rem;
+         padding-left: 0.3rem;
+     }
+     
+     footer
+     {
+         grid-template-columns: 35% 65%;
+         column-gap: 0rem;
+     }
+     .Libro-footer{
+         width: 12rem;
+         display: none;
+     }
+     .cont-lateral{
+         justify-items: end;
+     }
+     .enlaces a{
+         margin-right: 0.1rem;
+         font-size: 0.8rem;
+        
+     }
+    .contiene {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        column-gap: 2rem;
+    }
+}
+
+@media(min-width: 768px) and(max-width:1023px) {
+    .Menu li{
+        margin-right: 0rem;
+    }
+    .Menu  li a{
+        padding: 0.3rem 0.3rem 0.3rem;
+    }
+    .Sub-Menu li{
+        margin-right: 0rem;
+        font-size: 1.2rem;
+        
+    }
+    
+    .logo{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .cont-encabezado{
+        display: grid;
+        grid-template-columns: 55% 45%;
+     justify-items: center;
+        
+    }
+    
+    .LogTit{
+        display: grid;
+        grid-template-columns: 20% 80%;  
+    }
+    
+     
+    span{
+        font-size: 3rem;
+    }
+    .h1{
+        font-size: 1.4rem;
+        padding-top: 1.3rem;
+        padding-left: 1.5rem;
+    }
+    
+    footer
+    {
+        grid-template-columns: 15% 30% 55%;
+        column-gap: 4.5rem;
+    }
+    .Libro-footer{
+        width: 17rem;
+    }
+    .enlaces a{
+        margin-right: 0.1rem;
+    }
+    .contene {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sig {
+        flex-basis: calc(50% - 2rem);
+    }
+    .asi {
+        flex-basis: calc(50% - 2rem);
+    }
+}
+
+@media(min-width:1024px) and (max-width:1200px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 7rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 60% 40%;
+     justify-items: center; 
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.h1{
+    padding-left: 1.2rem;
+}
+span{
+    font-size: 3rem;
+}
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 1.2rem;
+
+}
+
+footer
+{
+    grid-template-columns: 15% 40% 45%;
+    column-gap: 5rem;
+}
+
+}
+
+/* ----------------------Parte de estilos del Blog-----------------------  */
+
+
+.fw-300{
+    font-weight: 300;
+}
+.centrar-texto{
+    text-align: center;
+}
+
+.contenedor{
+    max-width: 120rem;  /*1200px */
+    margin: 0 auto; /* Centrar contenido */
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+    margin: 0;
+}
+
+.entrada-blog .imagen{
+    flex-basis: 50%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(50% - 2rem);
+}
+
+.texto-entrada h4{
+    margin: 0;
+}
+
+.texto-entrada a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.texto-entrada h4::after{  /*PSEUDOELEMENTOS son elementos virtuales, es decir,  */
+    content: '';  /* no los puedes seleccionar y no se ven en el codigo fuente */
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #800000;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: #e08709;
+}
+
+img{
+    max-width: 100%;
+}
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.centrar-contenido{
+    max-width: 80rem;  /* 800px  */
+    margin: 0 auto;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+/* ----------------------Parte Responsiva del Login-----------------------  */
+
+@media(min-width: 360px) and (max-width:767px) {
+    .Menu{
+        float: left;
+     } 
+      .latD-Head{
+        display: block;
+         justify-self: center;
+     } 
+     .Barra-Head a{
+         color: white;
+         text-decoration: none;
+         padding-right: 1.5rem;
+     }
+     .Barra-Head input[type=search]{
+         width: 15rem;
+     }
+     .Menu li{
+         margin-right: 0rem;
+     }
+     .Menu  li a{
+         padding: 0.3rem 0.3rem 0.3rem;
+         font-size: 0.8rem;
+     }
+     .Menu-cell{
+         padding-top: 30px;
+     }
+     .Menu-cell label{
+         display: block;
+     }
+     
+     .cell-elements li{
+         border-top: 2px solid white;
+     }
+     #btnMenu:checked ~ .cell-elements
+     {
+         margin: 0;
+     }
+     
+     input[type="search"]
+     {
+         width: 9rem;
+         height: 1.5rem;
+     }
+     
+     .Sub-Menu {
+        display: none;
+     }
+     
+     .logo{
+         width: 3rem;
+         height: 3rem;
+     }
+     .icon-lupa{
+         
+         width: 1.6rem;
+         height: 1.6rem;;
+     }
+     .icon-car{
+      
+         width: 2rem;
+         height: 2rem;  
+     }
+     .cont-encabezado{
+         display: grid;
+         grid-template-rows: 30% 50%;
+         grid-template-columns: 100%;
+         justify-items: center;
+       
+     }
+     .cont-encabezado ul{
+         justify-items: end;
+     }
+     
+     .LogTit{
+         display: grid;
+         grid-template-columns: 20% 80%;
+         justify-content: center;
+         
+     }
+     
+     
+      
+     span{
+         font-size: 1.5rem;
+     }
+     .h1{
+         font-size: 1rem;
+         padding-top: 0rem;
+         padding-left: 0.3rem;
+     }
+     
+     footer
+     {
+         grid-template-columns: 35% 65%;
+         column-gap: 0rem;
+     }
+     .Libro-footer{
+         width: 12rem;
+         display: none;
+     }
+     .cont-lateral{
+         justify-items: end;
+     }
+     .enlaces a{
+         margin-right: 0.1rem;
+         font-size: 0.8rem;
+        
+     }
+    .centrar-contenido {
+        max-width: 40rem;
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 2rem;
+    }
+    img{
+        height: 80%;
+    }
+}
+
+@media(min-width: 768px) and (max-width:1023px) {
+    .Menu li{
+        margin-right: 0rem;
+    }
+    .Menu  li a{
+        padding: 0.3rem 0.3rem 0.3rem;
+    }
+    .Sub-Menu li{
+        margin-right: 0rem;
+        font-size: 1.2rem;
+        
+    }
+    
+    .logo{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .cont-encabezado{
+        display: grid;
+        grid-template-columns: 55% 45%;
+     justify-items: center;
+        
+    }
+    
+    .LogTit{
+        display: grid;
+        grid-template-columns: 20% 80%;  
+    }
+    
+     
+    span{
+        font-size: 3rem;
+    }
+    .h1{
+        font-size: 1.4rem;
+        padding-top: 1.3rem;
+        padding-left: 1.5rem;
+    }
+    
+    footer
+    {
+        grid-template-columns: 15% 30% 55%;
+        column-gap: 4.5rem;
+    }
+    .Libro-footer{
+        width: 17rem;
+    }
+    .enlaces a{
+        margin-right: 0.1rem;
+    }
+    .centrar-contenido {
+        max-width: 50rem;
+        display: grid;
+        grid-template-rows: 1fr;
+       
+    }
+    img{
+        height: 80%;
+    }
+}
+
+@media(min-width: 1024px) and (max-width:1200px) {
+    .Menu li{
+        margin-right: 0rem;
+    }
+    .Menu  li a{
+        padding: 0.3rem 0.3rem 0.3rem;
+    }
+    .Sub-Menu li{
+        margin-right: 0rem;
+        font-size: 1.2rem;
+        
+    }
+    
+    .logo{
+        width: 7rem;
+        height: 5rem;
+    }
+    
+    .cont-encabezado{
+        display: grid;
+        grid-template-columns: 60% 40%;
+         justify-items: center; 
+        
+    }
+    
+    .LogTit{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    
+    }
+    .h1{
+        padding-left: 1.2rem;
+    }
+    span{
+        font-size: 3rem;
+    }
+    .titNos{
+        width: 25%;
+        height: 40%;
+        margin-top: 5rem;
+        margin-left: 2.8rem;
+    font-size: 1.2rem;
+    
+    }
+    
+    footer
+    {
+        grid-template-columns: 15% 40% 45%;
+        column-gap: 5rem;
+    }
+    
+    .centrar-contenido {
+        max-width: 80rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+}

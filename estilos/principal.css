@@ -1,0 +1,615 @@
+
+
+/*------------- Globales--------------*/
+/* -------------Header---------------*/
+header{
+    /*   background-color:rgb(112, 110, 110); */
+    background-color:#800000	;
+     position: sticky;
+     top: 0px;
+  }
+  .cont-encabezado{
+    display: flex;
+  justify-content: space-between;
+
+ } 
+ .cont-encabezado ul{
+     list-style: none;
+ }
+ .cont-encabezado li{
+     float: left;
+ }
+ .LogTit{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+.Menu li{
+margin-right: 1rem;
+}
+.Menu li a{
+    padding: 0.8rem  0.8rem 0.8rem;
+    border-radius: 5px;
+}  
+
+.Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Menu a{
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.btnRad{
+    display: none;
+}
+.lbBtn{
+    display: none;
+} 
+.cell-elements{
+    position: absolute;
+    background-color: #800000;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: -200%;
+    transition: all ;
+}
+.cell-elements ul{
+flex-direction: column;
+margin: 0;
+padding: 0;
+
+}
+.IcoMenu
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.Menu label:hover{
+cursor: pointer;
+}
+.cell-elements ul{
+   display: flex; 
+}
+
+.cell-elements li:hover{
+ background-color: (0,0,0,0.3);
+    }
+.cell-elements li a{
+display: block;
+}
+
+.Barra-Head{
+    float: right;
+}
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+    border-radius: 0.1rem;
+    
+}
+.Barra-Head a:hover{
+    background-color: rgba(190, 177, 177, 0.712);
+}
+.Sub-Menu{
+    background-color: rgb(255, 0, 0);
+    border-top: 0.3rem solid lightsalmon;
+    border-bottom: 0.3rem solid lightsalmon;
+    display: flex;
+    height: 2.5rem;
+} 
+.Sub-Menu ul{
+    list-style: none;
+    margin: 0 auto;
+ 
+}
+.Sub-Menu li{
+    float: left;
+    margin-right: 1.2rem;
+    margin-top: 0.6rem;
+    font-style: oblique;
+    font-size: 1.2rem;   
+}
+  .Sub-Menu li a{
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}  
+
+ .Sub-Menu li a:hover{
+ background-color: rgba(190, 177, 177, 0.712);
+} 
+.Sub-Menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* .Ocultar{
+    display: none;
+} */
+
+
+/*-------------- Body----------------*/
+.Img-Prin{
+    width: 100%;
+    height: 100%;
+}
+.Seccionar{
+    
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    
+    margin: 0 auto;
+  background-image: url(../imagenes/Cintilla.png);
+  background-position: center;
+  background-size: cover;
+
+}
+span{
+   color: whitesmoke;
+   font-size: 5rem;
+}
+
+body{
+    background-color: 	#F8F8FF;
+}
+h1{
+    font-size: 20rem;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    margin: 0 auto;
+   
+}
+
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 6.2rem;
+ background-color: 		#000080 ;
+color: whitesmoke;
+font-size: 1.5rem;
+border-radius: 0.3rem;
+}
+
+
+.Articulo{
+display: flex;
+justify-content: space-evenly;
+text-align: justify;
+font-size: 1.6rem;
+line-height: 3rem;
+margin-bottom: 2.5rem;
+}
+
+
+ article p{
+     margin: 0px;
+    margin-right: 2.5rem;
+} 
+
+
+img{
+width: 12.5rem;
+height: 12.5rem;
+border-radius: 0.3rem;
+
+}
+
+.Contenedor-Libros{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+     margin-left: 6.25rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.9rem; 
+    
+}
+
+.Libro{
+    background-color: lightgrey;
+    width: 13.7rem;
+    height: 15.6rem;
+    padding-top: 0.6rem;
+    border: 0.1rem solid gray;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    border-radius: 0.3rem;
+}
+.Libro:hover{
+    transform: translateY(-1rem);
+    box-shadow: 0rem 0.75rem 1rem rgb(0,0,0.2);
+    background-color: skyblue;
+}
+.Libro p{
+    font-size: 1.2rem;
+    font-style: oblique;
+}
+
+.logo{
+    margin-left: 0.6rem;
+    width: 8rem;
+    height: 5.6rem;
+    border-radius: 2rem;
+}
+.cont-banner{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+  
+}
+.img-Banner{
+    border-radius: 5px;
+    width: 84rem;
+    height: 12.5rem;
+    margin: 0 auto;
+}
+.ImgPrinc{
+   width: 22rem;
+   height: 22rem;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+    margin-left: 6.2rem;
+    margin-right: 3.1rem; 
+}
+
+.icon-lupa{
+    
+    width: 1.9rem;
+    height: 1.9rem;;
+}
+.icon-car{
+ 
+    width: 2.5rem;
+    height: 2.5rem;  
+}
+.icon{
+    width: 1.6rem ;
+    height: 1.6rem;
+}
+input[type=search]{
+    width: 12.5rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+}
+input[type=submit]{
+width: 3.1rem;
+height: 2.1rem;
+}
+/* ------------Footer---------------- */
+footer{
+    background-color: #800000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16rem;
+}
+
+ .logo-redes{
+ display: flex;
+ flex-direction: column;
+}
+.cont-lateral{
+   display: grid;
+   grid-template-columns: repeat(3,fr);
+  column-gap: 3.1rem;
+}
+.cont-lateral ul{
+    list-style: none;
+}
+.cont-lateral li{
+    float: left;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.3rem;
+}
+.enlaces a:hover{
+    background-color: 	#FF4500;
+}
+.Libro-footer{
+    width: auto;
+    padding-top: 2.4rem;
+    height: 6.25rem;
+}
+.RS{
+    font-size: 1.1rem;
+    color: white;
+}
+/*-------------------Dispositivos Pequeños*/
+@media(min-width:260px) and (max-width:767px)
+{
+
+ .Menu{
+   float: left;
+} 
+ .latD-Head{
+   display: block;
+    justify-self: center;
+} 
+.Barra-Head a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+.Barra-Head input[type=search]{
+    width: 15rem;
+}
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+    font-size: 0.8rem;
+}
+.Menu-cell{
+    padding-top: 30px;
+}
+.Menu-cell label{
+    display: block;
+}
+
+.cell-elements li{
+    border-top: 2px solid white;
+}
+#btnMenu:checked ~ .cell-elements
+{
+    margin: 0;
+}
+
+input[type="search"]
+{
+    width: 9rem;
+    height: 1.5rem;
+}
+
+.Sub-Menu {
+   display: none;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.icon-lupa{
+    
+    width: 1.6rem;
+    height: 1.6rem;;
+}
+.icon-car{
+ 
+    width: 2rem;
+    height: 2rem;  
+}
+.cont-encabezado{
+    display: grid;
+    grid-template-rows: 30% 50%;
+    grid-template-columns: 100%;
+    justify-items: center;
+  
+}
+.cont-encabezado ul{
+    justify-items: end;
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    
+}
+
+.titNos{
+    width: 40%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 0.8rem;
+
+}
+.ImgPrinc{
+    width: 13rem;
+    height: 15rem;
+     margin-left: 3.0rem;
+     margin-right: 1.5rem; 
+     float: left;
+ }
+ .Articulo{
+    display: list-item;
+    
+    }
+    .Articulo p{
+        margin-left: 2rem;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+span{
+    font-size: 1.5rem;
+}
+.h1{
+    font-size: 1rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+}
+.Contenedor-Libros{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 3rem;
+    justify-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+footer
+{
+    grid-template-columns: 35% 65%;
+    column-gap: 0rem;
+}
+.Libro-footer{
+    width: 12rem;
+    display: none;
+}
+.cont-lateral{
+    justify-items: end;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+   
+}
+}
+
+
+
+/*Dispositivos Medianos*/
+@media(min-width:768px)  and (max-width:1023px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 55% 45%;
+ justify-items: center;
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;  
+}
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 1rem;
+
+}
+.ImgPrinc{
+    width: 15rem;
+    height: 15rem;
+     margin-left: 3.0rem;
+     margin-right: 1.5rem; 
+     float: left;
+ }
+ .Articulo{
+    display: list-item;
+    
+    }
+    .Articulo p{
+        margin-left: 2rem;
+    }
+span{
+    font-size: 3rem;
+}
+.h1{
+    font-size: 1.4rem;
+    padding-top: 1.3rem;
+    padding-left: 1.5rem;
+}
+.Contenedor-Libros{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem;
+}
+
+footer
+{
+    grid-template-columns: 15% 30% 55%;
+    column-gap: 4.5rem;
+}
+.Libro-footer{
+    width: 17rem;
+}
+.enlaces a{
+    margin-right: 0.1rem;
+}
+}
+/*-------------------------Dispositivos Mayores*/
+@media(min-width:1024px) and (max-width:1200px)
+{
+
+.Menu li{
+    margin-right: 0rem;
+}
+.Menu  li a{
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+.Sub-Menu li{
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 7rem;
+    height: 5rem;
+}
+
+.cont-encabezado{
+    display: grid;
+    grid-template-columns: 60% 40%;
+     justify-items: center; 
+    
+}
+
+.LogTit{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.h1{
+    padding-left: 1.2rem;
+}
+span{
+    font-size: 3rem;
+}
+.titNos{
+    width: 25%;
+    height: 40%;
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+font-size: 1.2rem;
+
+}
+.ImgPrinc{
+    width: 18rem;
+    height: 18rem;
+     margin-left: 2.0rem;
+     margin-right: 1.5rem; 
+     float: left;
+ }
+  .Articulo{
+display: list-item;
+
+}
+.Articulo p{
+    margin-left: 2rem;
+}
+
+.Contenedor-Libros{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem;
+}
+footer
+{
+    grid-template-columns: 15% 40% 45%;
+    column-gap: 5rem;
+}
+
+}
